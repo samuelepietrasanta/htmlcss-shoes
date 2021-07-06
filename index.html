@@ -10,18 +10,45 @@
 <body>
 
     <nav>
+        <!-- container con position:relative -->
         <div id="link-container">
-            <div class="nav-link"> 1 </div>
-            <div class="nav-link"> 2 </div>
-            <div class="nav-link"> 3 </div>
+
+            <!-- link numerati -->
+            <div class="nav-link"> <a href="#first-container"> 1 </a></div>
+            <div class="nav-link"> <a href="#second-container"> 2 </a></div>
+            <div class="nav-link"> <a href="#third-container"> 3 </a></div>
 
         </div>
     </nav>
 
     <main>
-        <section></section>
-        <section></section>
-        <section></section>
+
+        <!-- id per il link interno + classe con position:relative -->
+        <section id="first-container" class="product-container">
+
+            <div class="product">
+                <img src="img/01.png" alt="immagine scarpa 1">
+                <p class="product-text yellow">il nostro prodotto di punta</p>
+            </div>
+        </section>
+
+
+
+        <section id="second-container" class="product-container">
+            <div class="product">
+                <img src="img/02.png" alt="immagine scarpa 2">
+                <p class="product-text yellow">la nostra scarpa più bella</p>
+            </div>
+        </section>
+
+
+
+        <section id="third-container" class="product-container">
+            <div class="product">
+                <img src="img/03.png" alt="immagine scarpa3">
+                <p class="product-text green">la nostra scarpa più brutta</p>
+            </div>
+        </section>
 
     </main>
     
